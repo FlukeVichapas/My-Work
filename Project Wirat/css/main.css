@@ -1,0 +1,123 @@
+body {
+    background: #eee;
+    margin: 0;
+    padding: 0;
+    font-family:"Source Sans Pro", sans-serif;
+    color: #333;
+}
+header{
+    width: 100%;
+    padding: 60px 0;
+    background: #fff;
+    border-bottom: 1px solid #e1e1e1;
+
+    transition: all 0.3s ease-in-out;
+    z-index: 9999;
+    top: 0;
+    position: fixed;
+}
+ul{
+    margin-top: 30px;
+    margin-right: 5%;
+    float: right;
+    padding: 0;
+    width: 20%;
+}
+li{
+    display: inline-block;
+    margin-right: 10%;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.logo{
+    font-size: 15px;
+    text-indent: 40px;
+    font-weight: bold;
+    float: left;
+    margin-left: 10%;
+}
+.container{
+    height: 350px;
+    margin: 200px 50px auto;
+    background: url(https://cdn.pixabay.com/photo/2014/08/11/21/39/wall-416060_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+}
+.text{
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 120px;
+    font-size: x-large;
+}
+.text2{
+    color: #333;
+    width: 40%;
+    margin: 50px auto;
+}
+.shrink{
+    padding: 20px 0;
+}
+p{
+    margin: 0 0 40px 0;
+    line-height: 24px;
+}
+strong{
+    font-weight: bold;
+}
+footer{
+    background: #fff;
+    height: auto;
+    width: 100vw;
+    font-family:"Source Sans Pro", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    color: #333;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin:0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #333;
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-bottom p span{
+    font-weight: bold;
+}
